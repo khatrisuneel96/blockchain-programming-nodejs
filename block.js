@@ -1,10 +1,10 @@
 class Block {
     constructor() {
-        this.index = 0,
-            this.previousHash = "",
-            this.nonce = 0,
-            this.hash = "",
-            this.transactions = []
+        this.index = 0
+        this.previousHash = ""
+        this.nonce = 0
+        this.hash = ""
+        this.transactions = []
     }
 
     get key() {
@@ -16,4 +16,4 @@ class Block {
     }
 }
 
-export default Block
+module.exports = Block
